@@ -30,6 +30,7 @@ bin/
 
 ### IntelliJ / Giga IDE ###
 .idea/
+.gigaide/
 *.iml
 
 ### Скомпилированные классы ###

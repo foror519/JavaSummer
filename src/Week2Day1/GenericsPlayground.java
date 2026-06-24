@@ -29,6 +29,7 @@ public class GenericsPlayground {
         System.out.println(countNulls(list));
         box_string.set("Hello");
         System.out.println(box_string.get());
+
     }
 }
 class Box<T>{

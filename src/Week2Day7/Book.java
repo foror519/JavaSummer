@@ -78,6 +78,7 @@ class Catalog{
         for (Book value : books.values()) {
             result.merge(value.getAuthor(), 1L, Long::sum);
         }
+
         return result;
     }
     List<Book> sortedByRatingDescThenTitle(){
@@ -101,6 +102,7 @@ class Catalog{
         for (Book b : books.values()) {
             sum += b.getRating();
         }
+
         return sum / books.size();
     }
     static <T> List<T> dedup(List<T> in) {
